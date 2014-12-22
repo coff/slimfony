@@ -1,0 +1,23 @@
+{
+    "name": "coff/slimfony",
+    "authors": [
+        {
+            "name": "Krzysztof Kubanek",
+            "email": "krzysztof.kubanek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Slimfony": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "~2.5",
+        "symfony/routing": "~2.5",
+        "symfony/event-dispatcher": "~2.5",
+        "symfony/http-foundation": "~2.5",
+        "symfony/http-kernel": "~2.5",
+        "pimple/pimple": "~3.0"
+    }
+}
+
